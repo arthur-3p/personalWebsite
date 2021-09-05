@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: 'Oxygen', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 4px;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 4px;
+}
+
+p {
+  font-size: medium;
+}
+
+hr{
+  width: 50%;
+  max-width: 300px;
+  min-width: 100px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Oxygen';
+  text-decoration: underline;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.table2{
+  display: flex;
+  flex-direction: column;
+}
+
+.tableChild {
+  flex: 1 0 33%;
+}
+
+
+.homeContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.homeSwitcher{
+  width: 100%;;
+}
+
+.aboutText{
+  width: 60%
+}
+
+.header{
+  z-index: 0;
+  width:100%;
+  top: 0%;
+}
+
+.centre{
+  text-align: center;
+}
+
+.p5sketch{
+  position: fixed;
+  top:0%;
+  left: 0%;
+  z-index: -1;
+}
+
+.emailImage{
+  width: 30px;
+}
+
+.work{
+  width: 100%;
+}
+
+.workThumb{
+  width: 300px;
+  height: auto;
+}
+
+.pipesContainer{
+  display: flex;
+  flex-direction: column;;
+}
+
+.projectImage{
+  width: auto;
+  max-width: 800px;
+  height: 300px;
+  margin: 4px;
+}
+
+.video{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.videoPws{
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  height: auto;
+  padding-top: 56.25%;
+}
+
+iframe {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;
+}
+
+@keyframes inAnimation {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes outAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
