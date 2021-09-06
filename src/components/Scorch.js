@@ -16,7 +16,7 @@ function Scorch() {
                     </div>
                 </div>
                 <div>
-                    <img className='projectImage' style={{height: "600px"}} src='./scorch.jpg' alt="project thumbnail"/>
+                    <img className='projectImage' style={{height: "600px"}} src='./Scorch.jpg' alt="project thumbnail"/>
                 </div>
             </div>
         );

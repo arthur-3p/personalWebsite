@@ -115,12 +115,14 @@ function About() {
             <div className='p5sketch'>
                 <Sketch setup={setup} draw={draw} windowResized={windowResized}/>
             </div>
+            <br />
             <div>
                 <p1>{text}</p1>
             </div>
             <div>
             <button onClick={() => spin()}>{buttonText}</button>
             </div>
+            <br />
             <br />
             <div className='aboutText'>
                 <p>

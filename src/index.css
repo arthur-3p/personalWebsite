@@ -77,7 +77,8 @@ button {
 }
 
 .aboutText{
-  width: 60%
+  text-align: justify;
+  width: 60%;
 }
 
 .header{
