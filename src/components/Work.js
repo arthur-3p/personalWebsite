@@ -12,7 +12,7 @@ const closeStyle = {
 };
 
 const openStyle = {
-    display: "block",
+    display: "inline",
     width: "100%"
 };
 
