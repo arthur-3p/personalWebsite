@@ -27,8 +27,8 @@ function PeaceWallStories() {
             </div>
             </div>
             <div>
-                <img className='projectImage' src='./PeaceWallStories1.jpg' alt="project thumbnail"/>
-                <img className='projectImage' src='./pws2.jpg' alt="project thumbnail"/>
+                <img style={{width:"95%", height:"auto", maxWidth:"418px"}} className='projectImage' src='./PeaceWallStories1.jpg' alt="project thumbnail"/>
+                <img style={{width:"95%", height:"auto", maxWidth:"418px"}} className='projectImage' src='./Pws2.jpg' alt="project thumbnail"/>
             </div>
             <div className='videoPws' style={{maxWidth:'1100px'}}>
             <iframe width="560" height="200" src="https://www.youtube.com/embed/WopzkeDL_xE" title="peacewallstories"></iframe>

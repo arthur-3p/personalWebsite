@@ -15,7 +15,7 @@ function Pipes() {
             <div>
                 <img className='projectImage' src='./pipes/menier.jpg' alt="project thumbnail"/>
                 <img className='projectImage' src='./pipes/vertSide.jpg' alt="project thumbnail"/>
-                <img className='projectImage' src='./pipes/frontpipes.jpg' alt="project thumbnail"/>
+                <img style={{width:"95%", height:"auto", maxWidth:"418px"}} className='projectImage' src='./pipes/frontpipes.jpg' alt="project thumbnail"/>
             </div>
             <div className='video' style={{maxWidth:'800px'}}>
                 <iframe src="https://player.vimeo.com/video/562320598?h=1a8b57fc07" title="pipes"></iframe>
